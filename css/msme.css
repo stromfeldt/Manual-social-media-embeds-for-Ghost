@@ -1,0 +1,511 @@
+/* ============================================
+       MANUAL SOCIAL MEDIA EMBEDS FOR GHOST
+   ============================================ */
+
+.msme-block {
+    width: 100%;
+    padding: 30px 30px;
+    background-image: linear-gradient(135deg, #F93FD7, #5344FA);
+}
+@media (min-width: 769px) {
+    .msme-block {
+        padding: 60px 80px;
+    }
+}
+@media (min-width: 1503px) {
+    .msme-block {
+        padding: 80px 110px;
+    }
+}
+.msme-content-border {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 12px 28px 0, rgba(0, 0, 0, 0.1) 0 2px 4px 0, rgba(255, 255, 255, 0.05) 0 0 0 1px inset,
+                rgba(0, 0, 0, 0.2) 0 12px 28px 0, rgba(0, 0, 0, 0.1) 0 2px 4px 0, rgba(255, 255, 255, 0.05) 0 0 0 1px inset,
+                rgba(0, 0, 0, 0.35) 0 5px 15px;
+    background-image: linear-gradient(135deg, #F6FCFB, #B7C0C1);
+}
+.msme-content {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(135deg, #F6FCFB, #96A3A5);
+}
+@media (min-width: 769px) {
+    .msme-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+.x-msme-icon,
+.twitter-msme-icon,
+.mastodon-msme-icon,
+.reddit-msme-icon,
+.threads-msme-icon {
+    display: block !important;
+    position: relative;
+    float: right;
+    top: 16px;
+}
+.twitter-msme-icon,
+.mastodon-msme-icon {
+    width: 28px;
+}
+.reddit-msme-icon {
+    width: 30px;
+}
+.x-msme-icon,
+.threads-msme-icon,
+.mastodon-purple-msme-icon,
+.mastodon-black-and-white-msme-icon {
+    width: 26px;
+}
+.x-msme-icon path,
+.threads-msme-icon path,
+.mastodon-black-and-white-msme-icon {
+    fill: #000;
+}
+.reddit-msme-icon path,
+.mastodon-purple-msme-icon path.mastodon-m {
+    fill: #FFF;
+}
+@media (min-width: 769px) {
+    .x-msme-icon {
+        top: 31px;
+    }
+    .twitter-msme-icon,
+    .mastodon-msme-icon,
+    .reddit-msme-icon,
+    .threads-msme-icon {
+        top: 30px;
+    }
+    .twitter-msme-icon,
+    .mastodon-msme-icon {
+        width: 36px;
+    }
+    .reddit-msme-icon {
+        width: 38px;
+    }
+    .x-msme-icon,
+    .threads-msme-icon {
+        width: 34px;
+    }
+}
+.x-msme-icon {
+    display: none !important;
+}
+.msme-header {
+    align-items: center;
+    display: flex !important;
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+@media (min-width: 769px) {
+    .msme-header {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+.msme-header-avatar-image .msme-avatar {
+    flex: 0 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    min-height: 48px;
+    min-width: 48px;
+    height: 48px;
+    width: 48px;
+}
+.msme-header-content {
+    margin-left: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.msme-username {
+    color: #0F1418;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.msme-handle {
+    color: #536472;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.msme-email-username-and-handle {
+    display: none !important;
+}
+.msme-text p {
+    color: #0F1418;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 12px !important;
+}
+@media (min-width: 769px) {
+    .msme-text p {
+        font-size: 20px !important;
+        line-height: 27px !important;
+        padding-bottom: 16px !important;
+    }
+}
+.msme-text p:last-of-type {
+    padding-bottom: 21px !important;
+}
+@media (min-width: 769px) {
+    .msme-text p:last-of-type {
+        padding-bottom: 24px !important;
+    }
+}
+.plain-msme .msme-text p:last-of-type {
+    padding-bottom: 14px !important;
+}
+@media (min-width: 769px) {
+    .plain-msme .msme-text p:last-of-type {
+        padding-bottom: 16px !important;
+    }
+}
+.x-brand-colour,
+.twitter-brand-colour {
+    color: #1D9BF0;
+}
+.mastodon-brand-colour {
+    color: #563ACC;
+}
+.threads-brand-colour {
+    color: #0095F6;
+}
+.reddit-brand-colour {
+    color: #FF4500;
+}
+.msme-time,
+.msme-date {
+    display: inline-block !important;
+    color: #536472 !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+.msme-time {
+    text-transform: uppercase;
+}
+.msme-url-for-emails {
+    display: none;
+}
+.footer-datetime .msme-time,
+.footer-datetime .msme-date {
+    padding-bottom: 12px !important;
+}
+@media (min-width: 769px) {
+    .footer-datetime .msme-time,
+    .footer-datetime .msme-date {
+        padding-bottom: 22px !important;
+    }
+}
+.msme-date:before {
+    content: " · ";
+}
+.repost-block {
+    display: block !important;
+}
+.repost-flex {
+    padding-top: 18px;
+    padding-left: 34px;
+    margin-bottom: -12px;
+    display: flex;
+}
+@media (min-width: 769px) {
+    .repost-flex {
+        padding-top: 24px;
+        margin-bottom: -24px;
+    }
+}
+.repost-block svg {
+    display: block;
+    position: relative;
+    fill: #536472;
+    height: 18px;
+    width: 18px;
+}
+.retweet-username,
+.repost-username,
+.repost-username-non-X-Twitter {
+    color: #536472;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+.retweet-username::after {
+    content: " retweeted";
+}
+.repost-username::after,
+.repost-username-non-X-Twitter::after {
+    content: " reposted";
+}
+.quote-post,
+.readers-added-context {
+    padding-bottom: 16px;
+    margin-bottom: 21px;
+    border-radius: 15px;
+    border: solid 1px #B7C0C1;
+    margin-left: 0 !important;
+}
+@media (min-width: 769px) {
+    .quote-post,
+    .readers-added-context {
+        margin-bottom: 24px;
+    }
+}
+.quote-post-handle {
+    font-weight: 400;
+}
+.quote-post-date {
+    color: #536472;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.quote-post-date::before {
+    content: " · ";
+}
+.quote-post-text p {
+    color: #0F1418;
+    font-size: 16px !important;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 12px !important;
+    line-height: 21px !important;
+}
+@media (min-width: 769px) {
+    .quote-post-text p {
+        font-size: 18px !important;
+        line-height: 23px !important;
+    }
+}
+.quote-post-text p:last-of-type {
+    margin-bottom: 0 !important;
+}
+.quote-post .msme-time {
+    display: none !important;
+}
+.quote-post-avatar-username-handle-datetime {
+    display: block !important;
+    padding: 14px 16px 16px 16px;
+}
+.quote-post-avatar-username-handle-datetime .msme-avatar {
+    margin-right: 2px;
+}
+.quote-post-avatar-username-handle-datetime .msme-username,
+.quote-post-avatar-username-handle-datetime .msme-handle,
+.quote-post-avatar-username-handle-datetime time {
+    position: relative;
+    top: .5px;
+}
+.readers-added-context-avatar-and-username {
+    display: block !important;
+    padding: 10px 16px 8px 16px;
+}
+.readers-added-context svg {
+    width: 22px;
+    position: relative;
+    top: 5px;
+}
+.quote-post .msme-avatar {
+    flex: 0 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    min-height: 24px;
+    min-width: 24px;
+    height: 24px;
+    width: 24px;
+}
+.quote-post-with-image {
+    padding-bottom: 0;
+}
+.quote-post-with-image p:last-of-type {
+    margin-bottom: 20px !important;
+}
+.msme-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    border-radius: 15px;
+}
+@media (min-width: 769px) {
+    .msme-image {
+        margin-bottom: 24px;
+    }
+}
+.remove-msme-link {
+    pointer-events: none;
+}
+.remove-msme-link img {
+    pointer-events: auto;
+    border: solid 1px #B7C0C1;
+}
+.quote-post-image img {
+    margin-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.msme-link-embed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border-radius: 15px;
+    border: solid 1px #B7C0C1;
+}
+@media (min-width: 769px) {
+    .msme-link-embed {
+        margin-bottom: 21px;
+    }
+}
+.msme-text-with-image p:last-of-type {
+    padding-bottom: 24px !important;
+}
+.msme-link-embed-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.msme-link-embed-content {
+    padding: 12px 20px;
+}
+.msme-link-embed-title {
+    color: #0F1418 !important;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.msme-link-embed-excerpt {
+    display: block !important;
+    color: #0F1418;
+    font-size: 16px;
+    line-height: 20px;
+}
+.msme-link-embed-website {
+    color: #536472 !important;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.msme-block .kg-card.kg-video-card {
+    margin-top: 0 !important;
+    margin-bottom: 21px !important;
+}
+@media (min-width: 769px) {
+    .msme-block .kg-card.kg-video-card {
+        margin-bottom: 24px !important;
+    }
+}
+.msme-block .kg-video-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.msme-video-link {
+    pointer-events: none;
+}
+.msme-video-link .kg-video-card {
+    pointer-events: auto;
+}
+.quote-post-with-video {
+    padding-bottom: 0;
+}
+.quote-post-with-video p:last-of-type {
+    margin-bottom: 20px !important;
+}
+.quote-post-with-video .kg-video-card,
+.quote-post-with-video .kg-video-overlay,
+.quote-post-with-video .kg-video-player-container,
+.quote-post-with-video .kg-video-card video {
+    border-radius: 15px !important;
+}
+.quote-post-with-video figure {
+    float: none;
+}
+.msme-block .quote-post-with-video .kg-card.kg-video-card {
+    margin-bottom: 0 !important;
+}
+.msme-connection-line {
+    position: relative;
+    left: 44px;
+    width: 4px;
+    height: 30px;
+    background-color: #DFE6E5;
+}
+@media (min-width: 769px) {
+    .msme-connection-line {
+        left: 65px;
+        height: 60px;
+    }
+}
+
+
+/* =============================================================
+       DARKMODE CSS FOR MANUAL SOCIAL MEDIA EMBEDS FOR GHOST
+   ============================================================= */
+
+
+:root.dark .msme-content-border {
+    background-image: linear-gradient(135deg, #333F3E, #343636);
+}
+:root.dark .msme-content {
+    background-image: linear-gradient(135deg, #282828, #020A0A);
+}
+:root.dark .x-msme-icon path,
+:root.dark .reddit-msme-icon path,
+:root.dark .threads-msme-icon path,
+:root.dark .mastodon-black-and-white-msme-icon,
+:root.dark .mastodon-purple-msme-icon path.mastodon-m {
+    fill: #E7E9EA;
+}
+:root.dark .msme-link-embed-title {
+    color: #E7E9EA !important;
+}
+:root.dark .msme-username,
+:root.dark .quote-post-text p,
+:root.dark .msme-link-embed-excerpt {
+    color: #E7E9EA;
+}
+:root.dark .msme-handle,
+:root.dark .retweet-username,
+:root.dark .repost-username,
+:root.dark .repost-username-non-X-Twitter,
+:root.dark .quote-post-date {
+    color: #71767B;
+}
+:root.dark .msme-link-embed-website {
+    color: #71767B !important;
+}
+:root.dark figure blockquote {
+    background-color: transparent !important;
+}
+:root.dark .repost-block svg {
+    fill: #71767B;
+}
+:root.dark .msme-text p,
+:root.dark .quote-post-text p {
+    color: #E7E9EA !important;
+}
+:root.dark .msme-time,
+:root.dark .msme-date {
+    color: #71767B !important;
+}
+:root.dark .quote-post,
+:root.dark .readers-added-context,
+:root.dark .remove-msme-link .msme-image,
+:root.dark .msme-link-embed {
+    border: solid 1px #333F3E;
+}
+:root.dark .msme-connection-line {
+    background-color: #475150;
+}
