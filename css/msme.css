@@ -45,14 +45,16 @@
 .twitter-msme-icon,
 .mastodon-msme-icon,
 .reddit-msme-icon,
-.threads-msme-icon {
+.threads-msme-icon,
+.bluesky-msme-icon {
     display: block !important;
     position: relative;
     float: right;
     top: 16px;
 }
 .twitter-msme-icon,
-.mastodon-msme-icon {
+.mastodon-msme-icon,
+.bluesky-msme-icon {
     width: 28px;
 }
 .reddit-msme-icon {
@@ -80,11 +82,13 @@
     .twitter-msme-icon,
     .mastodon-msme-icon,
     .reddit-msme-icon,
-    .threads-msme-icon {
+    .threads-msme-icon,
+    .bluesky-msme-icon {
         top: 30px;
     }
     .twitter-msme-icon,
-    .mastodon-msme-icon {
+    .mastodon-msme-icon,
+    .bluesky-msme-icon {
         width: 36px;
     }
     .reddit-msme-icon {
@@ -182,6 +186,9 @@
 }
 .reddit-brand-colour {
     color: #FF4500;
+}
+.bluesky-brand-colour {
+    color: #0085FF;
 }
 .msme-time,
 .msme-date {
