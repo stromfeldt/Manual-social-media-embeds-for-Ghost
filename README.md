@@ -80,17 +80,13 @@ This embed is no different than a quote post with an image, except that like emb
 
 ### Signifying a repost
 
-Any of the above embeds can be signified as having been reposted by a secondary account, although as one can't link to an account's repost of a post there is no extra link to be inserted here. Begin by copying the HTML from the `msme (repost block).html` file and paste it into any embed between the end of the social media logo `<svg>` and the beginning of the `<header>`. Next, you'll see that you can insert the username into three different spots:
+Any of the above embeds can be signified as having been reposted by a secondary account, although as one can't link to an account's repost of a post there is no extra link to be inserted here. Begin by copying the HTML from the `msme (repost block).html` file and paste it into any embed between the end of the social media logo `<svg>` and the beginning of the `<header>`. Next, you'll see that the username is to be inserted into a specific spot:
 
 ```
-<span class="retweet-username">**RETWEET USERNAME**</span>
 <span class="repost-username">**REPOST USERNAME**</span>
-<span class="repost-username-non-X-Twitter">**REPOST USERNAME**</span>
 ```
 
-If your embed is for any platform other that Twitter/X, then delete the first two lines and fill in the data for the third. Similarly, if your embed will be utilising the Twitter icon then fill in the field in the first line and delete the following two lines, or if your embed will be utilising the X icon then fill in the field in the second line and delete the other two lines. However, if you think you may switch between the Twitter and X icons at some future date, then fill in the fields in the first two lines and delete the third line, then utilise the CSS explained below in the "Inserting SVG icon(s)" section to hide one or the other.
-
-Otherwise, the word "retweeted" automatically appears after the username in the first case, while the word "reposted" automatically appears after the username in the other two cases.
+The word "reposted" will then automatically appear after the username.
 
 ## Extra functionality
 
@@ -101,8 +97,7 @@ All HTML cards / snippets (except for those that appear below video embeds) cont
 To enable the latter option, instead of inserting either the Twitter SVG or the X SVG, add them both in simultaneously (which can be copied at once from the Twitter-and-X-msme-icons.svg file). You'll then have to set one of them to `display: none`, accomplished by inserting one of the two sets of CSS below into your site's code injection or into its theme.
 
 ```
-.x-msme-icon,
-.repost-username {
+.x-msme-icon {
     display: none !important;
 }
 ```
@@ -110,8 +105,7 @@ To enable the latter option, instead of inserting either the Twitter SVG or the 
 Or:
 
 ```
-.twitter-msme-icon,
-.retweet-username {
+.twitter-msme-icon {
     display: none !important;
 }
 ```

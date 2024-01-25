@@ -238,20 +238,14 @@
     height: 18px;
     width: 18px;
 }
-.retweet-username,
-.repost-username,
-.repost-username-non-X-Twitter {
+.repost-username {
     color: #536472;
     font-size: 14px;
     line-height: 16px;
     font-weight: 600;
     padding-left: 4px;
 }
-.retweet-username::after {
-    content: " retweeted";
-}
-.repost-username::after,
-.repost-username-non-X-Twitter::after {
+.repost-username::after {
     content: " reposted";
 }
 .quote-post,
@@ -484,9 +478,7 @@
     color: #E7E9EA;
 }
 :root.dark .msme-handle,
-:root.dark .retweet-username,
 :root.dark .repost-username,
-:root.dark .repost-username-non-X-Twitter,
 :root.dark .quote-post-date {
     color: #71767B;
 }
