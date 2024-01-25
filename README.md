@@ -27,7 +27,7 @@ How to use the manual embeds is explained in the following sections, while a liv
 There's currently eleven HTML files found in the /snippets directory, which, besides the actual content, contain everything needed except for the social media logo SVGs.
 
 1. Copy the HTML from any file in the /snippets directory into an HTML card in Ghost's editor
-2. Copy the SVG code from the file in the /social-media-icons directory that you're after (there's currently SVG icons for Twitter, X, Mastodon, Reddit, Threads, and Bluesky, with more likely to be added over time) and in the HTML card use that code to replace the `**MSME_ICON(S)**` line (customising this is explained further below)
+2. Copy the SVG code from the file in the /social-media-icons directory that you're after (there's currently SVG icons for Twitter, X, Mastodon, Reddit, Threads, Bluesky, as well as a Twitter impaled by X icon [[inspired by](https://www.theverge.com/23814989/elon-musk-banking-x-paypal) <em>The Verge</em>], with more likely to be added over time) and in the HTML card use that code to replace the `**MSME_ICON(S)**` line (customising this is explained further below)
 3. If you'd like to re-use the HTML card, create a snippet out of it (I use ↑ and ↓ in lieu of ABOVE and BELOW, which can't be added to filenames but which can be added to snippet names)
 
 Besides the above there's all the various data that need to be manually inserted, the description of that data often surrounded with two asterisks on each side (such as `**MSME_URL**`) in the location where it belongs. A listing of the various data required for the various kinds of embeds follows.
@@ -92,12 +92,13 @@ The word "reposted" will then automatically appear after the username.
 
 ### Inserting SVG icon(s)
 
-All HTML cards / snippets (except for those that appear below video embeds) contain a line with `**MSME_ICON(S)**`, which is to be replaced with the SVG you'd like to use for the particular embed. That being so, while the Twitter, Reddit and Bluesky SVGs are straight forward enough to use, and the X, Threads, and (regular) Mastodon SVGs switch between light and dark modes, one can also choose to use the purple Mastodon SVG instead of the monochrome version used for light/dark mode usage. Furthermore, if you're not sure whether you'd like to use the Twitter logo or the X logo, or think you might end up switching between them at some point in the future, you can cater for this with some CSS.
+All HTML cards / snippets (except for those that appear below video embeds) contain a line with `**MSME_ICON(S)**`, which is to be replaced with the SVG you'd like to use for the particular embed. That being so, while the Twitter, Reddit and Bluesky SVGs are straight forward enough to use, and the X, Twitter impaled by X, Threads, and (regular) Mastodon SVGs switch between light and dark modes, one can also choose to use the purple Mastodon SVG instead of the monochrome version used for light/dark mode usage. Furthermore, if you're not sure whether you'd like to use the Twitter logo or the X logo or the Twitter impaled by X logo, or think you might end up switching between them at some point in the future, you can cater for this with some CSS.
 
-To enable the latter option, instead of inserting either the Twitter SVG or the X SVG, add them both in simultaneously (which can be copied at once from the Twitter-and-X-msme-icons.svg file). You'll then have to set one of them to `display: none`, accomplished by inserting one of the two sets of CSS below into your site's code injection or into its theme.
+To enable the latter option, instead of inserting either the Twitter SVG or the X SVG or the Twitter impaled by X SVG, add them all in simultaneously (which can be copied at once from the Twitter-and-X-and-impaling-msme-icons.svg file). You'll then have to set two of them to `display: none`, accomplished by inserting one of the three sets of CSS below into your site's code injection or into its theme.
 
 ```
-.x-msme-icon {
+.twitter-msme-icon,
+.x-impaling-twitter-msme-icon {
     display: none !important;
 }
 ```
@@ -105,6 +106,16 @@ To enable the latter option, instead of inserting either the Twitter SVG or the 
 Or:
 
 ```
+.x-msme-icon,
+.x-impaling-twitter-msme-icon {
+    display: none !important;
+}
+```
+
+Or:
+
+```
+.x-msme-icon,
 .twitter-msme-icon {
     display: none !important;
 }

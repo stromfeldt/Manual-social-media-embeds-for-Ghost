@@ -43,6 +43,7 @@
 }
 .x-msme-icon,
 .twitter-msme-icon,
+.x-impaling-twitter-msme-icon,
 .mastodon-msme-icon,
 .reddit-msme-icon,
 .threads-msme-icon,
@@ -50,9 +51,20 @@
     display: block !important;
     position: relative;
     float: right;
+}
+.x-msme-icon,
+.twitter-msme-icon,
+.mastodon-msme-icon,
+.reddit-msme-icon,
+.threads-msme-icon,
+.bluesky-msme-icon {
     top: 16px;
 }
+.x-impaling-twitter-msme-icon {
+    top: 15px;
+}
 .twitter-msme-icon,
+.x-impaling-twitter-msme-icon,
 .mastodon-msme-icon,
 .bluesky-msme-icon {
     width: 28px;
@@ -67,6 +79,7 @@
     width: 26px;
 }
 .x-msme-icon path,
+.x-impaling-twitter-msme-icon-x-portion,
 .threads-msme-icon path,
 .mastodon-black-and-white-msme-icon {
     fill: #000;
@@ -76,7 +89,8 @@
     fill: #FFF;
 }
 @media (min-width: 769px) {
-    .x-msme-icon {
+    .x-msme-icon,
+    .x-impaling-twitter-msme-icon {
         top: 31px;
     }
     .twitter-msme-icon,
@@ -95,6 +109,7 @@
         width: 38px;
     }
     .x-msme-icon,
+    .x-impaling-twitter-msme-icon,
     .threads-msme-icon {
         width: 34px;
     }
@@ -463,6 +478,7 @@
     background-image: linear-gradient(135deg, #282828, #020A0A);
 }
 :root.dark .x-msme-icon path,
+:root.dark .x-impaling-twitter-msme-icon-x-portion,
 :root.dark .reddit-msme-icon path,
 :root.dark .threads-msme-icon path,
 :root.dark .mastodon-black-and-white-msme-icon,
