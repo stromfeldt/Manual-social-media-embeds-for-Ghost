@@ -48,7 +48,8 @@
 .reddit-msme-icon,
 .threads-msme-icon,
 .bluesky-msme-icon,
-.instagram-msme-icon {
+.instagram-msme-icon,
+.substack-msme-icon {
     display: block !important;
     position: relative;
     float: right;
@@ -59,7 +60,8 @@
 .reddit-msme-icon,
 .threads-msme-icon,
 .bluesky-msme-icon,
-.instagram-msme-icon {
+.instagram-msme-icon,
+.substack-msme-icon {
     top: 16px;
 }
 .x-impaling-twitter-msme-icon {
@@ -80,6 +82,9 @@
 .mastodon-purple-msme-icon,
 .mastodon-black-and-white-msme-icon {
     width: 26px;
+}
+.substack-msme-icon {
+    width: 24px;
 }
 .x-msme-icon path,
 .x-impaling-twitter-msme-icon-x-portion,
@@ -102,7 +107,8 @@
     .reddit-msme-icon,
     .threads-msme-icon,
     .bluesky-msme-icon,
-    .instagram-msme-icon {
+    .instagram-msme-icon,
+    .substack-msme-icon {
         top: 30px;
     }
     .twitter-msme-icon,
@@ -118,6 +124,9 @@
     .x-impaling-twitter-msme-icon,
     .threads-msme-icon {
         width: 34px;
+    }
+    .substack-msme-icon {
+        width: 32px;
     }
 }
 .x-msme-icon {
@@ -213,6 +222,9 @@
 }
 .instagram-brand-colour {
     color: #0095F6;
+}
+.substack-brand-colour {
+    color: #1DA1F2;
 }
 .msme-time,
 .msme-date {
