@@ -455,6 +455,20 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    padding-bottom: 0 !important;
+}
+.msme-block .kg-video-container video {
+    position: relative;
+    object-fit: fill;
+}
+.msme-block .kg-video-player-container {
+    bottom: 0;
+    left: auto;
+    right: auto;
 }
 .msme-video-link {
     pointer-events: none;
