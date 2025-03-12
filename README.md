@@ -92,7 +92,7 @@ The word "reposted" will then automatically appear after the username.
 
 ### Inserting SVG icon(s)
 
-All HTML cards / snippets (except for those that appear below video embeds) contain a line with `**MSME_ICON(S)**`, which is to be replaced with the SVG you'd like to use for the particular embed. That being so, while the Twitter, Reddit, Bluesky and Substack Notes SVGs are straight forward enough to use, and the X, Twitter impaled by X, Threads, Instagram, and (regular) Mastodon SVGs switch between light and dark modes, one can also choose to use the purple Mastodon SVG instead of the monochrome version used for light/dark mode usage. Furthermore, if you're not sure whether you'd like to use the Twitter logo or the X logo or the Twitter impaled by X logo, or think you might end up switching between them at some point in the future, you can cater for this with some CSS.
+All HTML cards / snippets (except for those that appear below video embeds) contain a line with `**MSME_ICON(S)**`, which is to be replaced with the SVG you'd like to use for the particular embed. That being so, while the Twitter, Reddit, Bluesky and Substack Notes SVGs are straight forward enough to use, and the X, Twitter impaled by X, Threads, Instagram, and (regular) Mastodon SVGs switch between light and dark modes, one can also choose to use the purple Mastodon SVG and/or the coloured Instagram SVG instead of the monochrome versions utilised for light/dark mode usage. Furthermore, if you're not sure whether you'd like to use the Twitter logo or the X logo or the Twitter impaled by X logo, or think you might end up switching between them at some point in the future, you can cater for this with some CSS.
 
 To enable the latter option, instead of inserting either the Twitter SVG or the X SVG or the Twitter impaled by X SVG, add them all in simultaneously (which can be copied at once from the Twitter-and-X-and-impaling-msme-icons.svg file). You'll then have to set two of them to `display: none`, accomplished by inserting one of the three sets of CSS below into your site's code injection or into its theme.
 
@@ -118,6 +118,17 @@ Or:
 .x-msme-icon,
 .twitter-msme-icon {
     display: none !important;
+}
+```
+
+The coloured Instagram SVG may require some adjustment to the CSS as the faux background is inherently not transparent, implying that the solid colour assigned must closely match the colour(s) of the gradient at the top-right of the MSME which the SVG lies atop of. By default the faux background colour of the coloured Instagram SVG matches the out-of-the-box MSME gradients for both light and dark modes, although if the MSME grandients are adjusted then the background colours of the SVG may also need to be adjusted. The classes to adjust are the following:
+
+```
+.instagram-colour-msme-icon-bg-fill {
+    fill: #C1CBCC;
+}
+:root.dark .instagram-colour-msme-icon-bg-fill {
+    fill: #011716;
 }
 ```
 
