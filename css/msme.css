@@ -50,7 +50,8 @@
 .bluesky-msme-icon,
 .instagram-msme-icon,
 .instagram-colour-msme-icon,
-.substack-msme-icon {
+.substack-msme-icon,
+.truth-social-msme-icon {
     display: block !important;
     position: relative;
     float: right;
@@ -69,6 +70,9 @@
 .x-impaling-twitter-msme-icon {
     top: 15px;
 }
+.truth-social-msme-icon {
+    top: 5px;
+}
 .twitter-msme-icon,
 .x-impaling-twitter-msme-icon,
 .mastodon-msme-icon,
@@ -79,6 +83,9 @@
 }
 .reddit-msme-icon {
     width: 30px;
+}
+.truth-social-msme-icon {
+    width: 34px;
 }
 .x-msme-icon,
 .threads-msme-icon,
@@ -118,6 +125,9 @@
     .substack-msme-icon {
         top: 30px;
     }
+    .truth-social-msme-icon {
+        top: 22px;
+    }
     .twitter-msme-icon,
     .mastodon-msme-icon,
     .bluesky-msme-icon,
@@ -127,6 +137,9 @@
     }
     .reddit-msme-icon {
         width: 38px;
+    }
+    .truth-social-msme-icon {
+        width: 40px;
     }
     .x-msme-icon,
     .x-impaling-twitter-msme-icon,
@@ -233,6 +246,9 @@
 }
 .substack-brand-colour {
     color: #1DA1F2;
+}
+.truth-social-brand-colour {
+    color: #4B78CF;
 }
 .msme-time,
 .msme-date {
