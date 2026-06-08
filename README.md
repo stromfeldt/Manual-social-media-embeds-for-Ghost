@@ -10,6 +10,7 @@ Taking inspiration from the aesthetic design of [poet.so](https://poet.so/) (whi
 - quote embeds
 - readers added context embeds
 - link embeds
+- bookmark card embeds
 - embeds with an image
 - embeds with a video
 - quote embeds with an image
@@ -61,6 +62,12 @@ As the readers added context SVG is included in the embed, the only thing differ
 1. `**LINK_EMBED_URL**` → `pointer-events` have been sent to `none` around the the link card, so applying a URL to the link card results in a click anywhere on the link card sending one to the link's URL instead of the MSME's URL.
 2. `**LINK_EMBED_IMAGE_URL**` and `**ALT**` → same process as for uploading and applying the `**AVATAR_URL**`, although in this case `**ALT**` can be set.
 3. `**LINK_EMBED_TITLE**`, `**LINK_EMBED_EXCERPT**` and `**LINK_EMBED_WEBSITE_NAME**` → self-explanatory.
+
+### Bookmark card embeds
+
+1. `**BOOKMARK_CARD_URL**` → `pointer-events` have been sent to `none` around the the link card, so applying a URL to the bookmark card results in a click anywhere on the bookmark card sending one to the bookmark card's URL instead of the MSME's URL.
+2. `**BOOKMARK_CARD_IMAGE_URL**` and `**ALT**` → same process as for uploading and applying the `**AVATAR_URL**`, although in this case `**ALT**` can be set.
+3. `**BOOKMARK_CARD_TITLE**`, `**BOOKMARK_CARD_EXCERPT**` and `**BOOKMARK_CARD_WEBSITE_NAME**` → self-explanatory.
 
 ### Embeds with an image
 

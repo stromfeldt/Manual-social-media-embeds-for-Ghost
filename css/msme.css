@@ -520,6 +520,45 @@
 .msme-block .quote-post-with-video .kg-card.kg-video-card {
     margin-bottom: 0 !important;
 }
+.msme-bookmark-card-link-container {
+    height: 100px;
+}
+.msme-bookmark-card .msme-link-embed-image {
+    float: left;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.msme-bookmark-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.msme-bookmark-card .msme-link-embed-title {
+    display: -webkit-box !important;
+    overflow-y: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+@media (max-width: 578px) {
+    .msme-bookmark-card .msme-link-embed-excerpt {
+        display: none !important;
+    }
+}
+@media (min-width: 579px) {
+    .msme-bookmark-card-link-container {
+        height: 142px;
+    }
+    .msme-bookmark-card .msme-link-embed-excerpt {
+        display: -webkit-box !important;
+        overflow-y: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
 .msme-connection-line {
     position: relative;
     left: 44px;
