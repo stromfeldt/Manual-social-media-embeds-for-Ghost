@@ -559,6 +559,10 @@
         -webkit-box-orient: vertical;
     }
 }
+.quote-post-after-video {
+    display: inline-block;
+    width: 100%;
+}
 .msme-connection-line {
     position: relative;
     left: 44px;

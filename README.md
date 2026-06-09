@@ -13,6 +13,7 @@ Taking inspiration from the aesthetic design of [poet.so](https://poet.so/) (whi
 - bookmark card embeds
 - embeds with an image
 - embeds with a video
+- embeds with a video plus a quote embed
 - quote embeds with an image
 - quote embeds with a video
 - reposts
@@ -45,7 +46,7 @@ Besides the above there's all the various data that need to be manually inserted
 7. `DD MMM 20YY<!--HARD-CODED FOR EMAILS-->` → the `datetime` JS doesn't work for emails, so if wanted one can either hardcode in a date or delete the default data entirely and leave the field blank.
 8. Captions → captions, utilizing HTML, can be inserted between `<figcaption>` and `</figcaption>`.
 
-### Quote posts
+### Quote embeds
 
 Most of the instructions above are equally applicable here, although a few differences should be noted.
 
@@ -80,6 +81,10 @@ Same process as for a regular quote post, except in this case you have to add in
 ### Embeds with a video
 
 In order to maintain usage of Ghost's native video functionality this embed requires uploading a video as normally done via a video card (after having downloaded the video from the social media platform with an online video saving service), then placing one HTML card / snippet above the video and another HTML card / snippet below. Utilizing a video via a video card (instead of copying in its URL as done with images) maintains usage of the video card's functionality available via the editor while simultaneously maintaining all video controls on the front end, and also results in the video appearing in emails as they normally do. There's nothing different from a plain embed that needs to be inserted into these two HTML cards / snippets.
+
+### Embeds with a video plus a quote embed
+
+THe combination of a video embed along with a quote embed below the video.
 
 ### Quote posts with a video
 
