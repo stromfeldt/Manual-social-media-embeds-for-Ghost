@@ -48,6 +48,7 @@
 .reddit-msme-icon,
 .threads-msme-icon,
 .bluesky-msme-icon,
+.facebook-msme-icon,
 .instagram-msme-icon,
 .instagram-colour-msme-icon,
 .substack-msme-icon,
@@ -70,6 +71,7 @@
     top: 15px;
 }
 .bluesky-msme-icon,
+.facebook-msme-icon,
 .instagram-msme-icon,
 .instagram-colour-msme-icon,
 .linkedin-msme-icon,
@@ -87,6 +89,7 @@
     width: 26px;
 }
 .bluesky-msme-icon,
+.facebook-msme-icon,
 .instagram-msme-icon,
 .instagram-colour-msme-icon,
 .linkedin-msme-icon,
@@ -132,6 +135,7 @@
         top: 29px;
     }
     .bluesky-msme-icon,
+    .facebook-msme-icon,
     .instagram-msme-icon,
     .instagram-colour-msme-icon,
     .linkedin-msme-icon ,
@@ -155,7 +159,8 @@
     .x-impaling-twitter-msme-icon {
         width: 34px;
     }
-    .reddit-msme-icon {
+    .reddit-msme-icon,
+    .facebook-msme-icon {
         width: 35px;
     }
     .reddit-msme-icon,
@@ -254,6 +259,9 @@
 }
 .bluesky-brand-colour {
     color: #0085FF;
+}
+.facebook-brand-colour {
+    color: #1877F2;
 }
 .instagram-brand-colour {
     color: #0095F6;
