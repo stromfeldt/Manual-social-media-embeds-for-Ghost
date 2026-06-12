@@ -57,47 +57,49 @@
     position: relative;
     float: right;
 }
-.x-msme-icon,
-.twitter-msme-icon,
-.mastodon-msme-icon,
-.reddit-msme-icon,
-.threads-msme-icon,
-.bluesky-msme-icon,
-.instagram-msme-icon,
-.instagram-colour-msme-icon,
-.substack-msme-icon {
-    top: 16px;
-}
-.x-impaling-twitter-msme-icon,
-.linkedin-msme-icon {
-    top: 15px;
-}
 .truth-social-msme-icon {
     top: 5px;
 }
-.twitter-msme-icon,
-.x-impaling-twitter-msme-icon,
-.mastodon-msme-icon,
+.twitter-msme-icon {
+    top: 12px;
+}
+.x-msme-icon {
+    top: 14px;
+}
+.x-impaling-twitter-msme-icon {
+    top: 15px;
+}
 .bluesky-msme-icon,
 .instagram-msme-icon,
 .instagram-colour-msme-icon,
-.linkedin-msme-icon {
-    width: 28px;
-}
-.reddit-msme-icon {
-    width: 30px;
-}
-.truth-social-msme-icon {
-    width: 34px;
-}
-.x-msme-icon,
-.threads-msme-icon,
-.mastodon-purple-msme-icon,
-.mastodon-black-and-white-msme-icon {
-    width: 26px;
+.linkedin-msme-icon,
+.mastodon-msme-icon,
+.reddit-msme-icon,
+.substack-msme-icon,
+.threads-msme-icon {
+    top: 16px;
 }
 .substack-msme-icon {
     width: 24px;
+}
+.threads-msme-icon,
+.x-msme-icon {
+    width: 26px;
+}
+.bluesky-msme-icon,
+.instagram-msme-icon,
+.instagram-colour-msme-icon,
+.linkedin-msme-icon,
+.mastodon-msme-icon,
+.reddit-msme-icon,
+.x-impaling-twitter-msme-icon {
+    width: 28px;
+}
+.truth-social-msme-icon {
+    width: 30px;
+}
+.twitter-msme-icon {
+    width: 32px;
 }
 .x-msme-icon path,
 .x-impaling-twitter-msme-icon-x-portion,
@@ -114,47 +116,52 @@
     fill: #C1CBCC;
 }
 @media (min-width: 769px) {
-    .x-msme-icon,
-    .x-impaling-twitter-msme-icon {
-        top: 31px;
+    .truth-social-msme-icon {
+        top: 21px;
     }
-    .twitter-msme-icon,
+    .twitter-msme-icon {
+        top: 25px;
+    }
+    .x-msme-icon {
+        top: 27px;
+    }
+    .substack-msme-icon {
+        width: 28px;
+    }
+    .x-impaling-twitter-msme-icon {
+        top: 29px;
+    }
+    .bluesky-msme-icon,
+    .instagram-msme-icon,
+    .instagram-colour-msme-icon,
+    .linkedin-msme-icon ,
     .mastodon-msme-icon,
     .reddit-msme-icon,
     .threads-msme-icon,
-    .bluesky-msme-icon,
-    .instagram-msme-icon,
-    .instagram-colour-msme-icon,
-    .substack-msme-icon {
+    .substack-msme-icon{
         top: 30px;
     }
-   .linkedin-msme-icon {
-        top: 29px;
+    .threads-msme-icon,
+    .x-msme-icon {
+        width: 30px;
     }
-    .truth-social-msme-icon {
-        top: 22px;
-    }
-    .twitter-msme-icon,
-    .mastodon-msme-icon,
     .bluesky-msme-icon,
     .instagram-msme-icon,
     .instagram-colour-msme-icon,
-    .linkedin-msme-icon {
-        width: 36px;
+    .linkedin-msme-icon,
+    .mastodon-msme-icon {
+        width: 32px;
     }
-    .reddit-msme-icon {
-        width: 38px;
-    }
-    .truth-social-msme-icon {
-        width: 40px;
-    }
-    .x-msme-icon,
-    .x-impaling-twitter-msme-icon,
-    .threads-msme-icon {
+    .x-impaling-twitter-msme-icon {
         width: 34px;
     }
-    .substack-msme-icon {
-        width: 32px;
+    .reddit-msme-icon {
+        width: 35px;
+    }
+    .reddit-msme-icon,
+    .truth-social-msme-icon,
+    .twitter-msme-icon {
+        width: 36px;
     }
 }
 .x-msme-icon {
