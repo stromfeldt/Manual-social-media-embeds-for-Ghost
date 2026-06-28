@@ -12,6 +12,7 @@ Taking inspiration from the aesthetic design of [poet.so](https://poet.so/) (whi
 - link embeds
 - bookmark card embeds
 - embeds with an image
+- embeds with an image gallery
 - embeds with a video
 - embeds with a video plus a quote embed
 - quote embeds with an image
@@ -77,6 +78,10 @@ As the readers added context SVG is included in the embed, the only thing differ
 ### Quote posts with an image
 
 Same process as for a regular quote post, except in this case you have to add in the data for the quote post's `**IMAGE_URL**` and if desired for the `**ALT**` (as done in embeds with an image).
+
+### Embeds with an image gallery
+
+In order to maintain usage of Ghost's native image gallery functionality this embed requires uploading images into a gallery as normally done via a gallery card, then placing one HTML card / snippet above the gallery and another HTML card / snippet below. There's nothing different from a plain embed that needs to be inserted into these two HTML cards / snippets.
 
 ### Embeds with a video
 

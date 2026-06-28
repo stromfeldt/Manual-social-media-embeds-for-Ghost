@@ -421,10 +421,18 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 21px;
-    border-radius: 15px;
 }
 @media (min-width: 769px) {
     .msme-image {
+        margin-bottom: 24px;
+    }
+}
+.msme-block .kg-gallery-card {
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+@media (min-width: 769px) {
+    .msme-block .kg-gallery-card {
         margin-bottom: 24px;
     }
 }
@@ -433,6 +441,7 @@
 }
 .remove-msme-link img {
     pointer-events: auto;
+    border-radius: 15px;
     border: solid 1px #B7C0C1;
 }
 .quote-post-image img {
@@ -648,7 +657,7 @@
 }
 :root.dark .quote-post,
 :root.dark .readers-added-context,
-:root.dark .remove-msme-link .msme-image,
+:root.dark .remove-msme-link img,
 :root.dark .msme-link-embed {
     border: solid 1px #333F3E;
 }
