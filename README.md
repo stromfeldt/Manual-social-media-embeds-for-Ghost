@@ -17,6 +17,7 @@ Taking inspiration from the aesthetic design of [poet.so](https://poet.so/) (whi
 - embeds with a video plus a quote embed
 - quote embeds with an image
 - quote embeds with a video
+- embeds with an image plus a quote embed with an image
 - reposts
 
 Perhaps the main advantage of these embeds is that all data for embeds can be stored on, and served from, one's site. Secondly, while all embeds are responsive and can also switch between light and dark modes, there's much less data to load than a large PNG file (à la poet.so) and conversely are much better quality than a compressed JPG file. Thirdly, all embeds have been optimised for emails/newsletters, and for the most part look no different than embeds inserted into posts via the default method of pasting in a link. The only manner in which they do look different is that embedded videos appear in emails as any video created with a video card normally would, while quoted portions of quote embeds are also included (which isn't the case with official Twitter/X embeds).
@@ -94,6 +95,10 @@ THe combination of a video embed along with a quote embed below the video.
 ### Quote posts with a video
 
 This embed is no different than a quote post with an image, except that like embeds with a video this embed setup requires placing one HTML card / snippet above the video and another HTML card / snippet below.
+
+### Embeds with an image plus a quote embed with an image
+
+Same process as for embeds with an image and for quote embeds with an image.
 
 ### Signifying a repost
 
