@@ -17,6 +17,7 @@ Taking inspiration from the aesthetic design of [poet.so](https://poet.so/) (whi
 - embeds with a video plus a quote embed
 - quote embeds with an image
 - quote embeds with a video
+- embeds with an image plus a quote embed
 - embeds with an image plus a quote embed with an image
 - reposts
 
@@ -95,6 +96,10 @@ THe combination of a video embed along with a quote embed below the video.
 ### Quote posts with a video
 
 This embed is no different than a quote post with an image, except that like embeds with a video this embed setup requires placing one HTML card / snippet above the video and another HTML card / snippet below.
+
+### Embeds with an image plus a quote embed
+
+Same process as for embeds with an image and for quote embeds.
 
 ### Embeds with an image plus a quote embed with an image
 
